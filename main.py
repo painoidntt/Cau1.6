@@ -12,7 +12,7 @@ df = pd.DataFrame(data)
 st.dataframe(df)
 
 st.header('Chi Tiết Bộ Dữ Liệu')
-laber_counter = Counter(df['label_word'])
+label_counter = Counter(df['label_word'])
 x = list(label_counter.keys())
 x = list(label_counter.values())
 fig = plt.figure()
