@@ -13,7 +13,7 @@ st.dataframe(df)
 
 st.header('Chi Tiết Bộ Dữ Liệu')
 laber_counter = Counter(df['label_word'])
-x = list(label_counter.key())
+x = list(label_counter.keys())
 x = list(label_counter.values())
 fig = plt.figure()
 barlist = plt.bar(x, y)
