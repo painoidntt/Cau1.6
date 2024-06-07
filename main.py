@@ -14,7 +14,7 @@ st.dataframe(df)
 st.header('Chi Tiết Bộ Dữ Liệu')
 label_counter = Counter(df['label_word'])
 x = list(label_counter.keys())
-x = list(label_counter.values())
+y = list(label_counter.values())
 fig = plt.figure()
 barlist = plt.bar(x, y)
 for i in range(len(label_counter)):
